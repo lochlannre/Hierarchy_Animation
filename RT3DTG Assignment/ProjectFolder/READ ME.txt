@@ -1,0 +1,3 @@
+THESE ARE THE 4 PROJECTS WITH THE FEATURES NEEDED: SHADOWS, HIERARCHY (Moving plane), TEXTURED TERRAIN, COLLISIONS
+
+Currently Merging Textured terrain and moving plane

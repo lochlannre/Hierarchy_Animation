@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Aeroplane.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMap.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimBone.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aeroplane.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMap.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimBone.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Update_Functor.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Lerp.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="DrawShadowCaster.hlsl">
+      <Filter>Base</Filter>
+    </FxCompile>
+    <FxCompile Include="DrawHeightMap.hlsl">
+      <Filter>Base</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Robot">
+      <UniqueIdentifier>{8341ccce-32bf-460b-bf1d-50d9bca0b17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{63bbe33f-1f2e-4914-8db1-94016c7a0f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{26b35ad9-b07a-402b-9ee8-191a91183448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{e61fc19f-19c5-4a88-aa88-7c0ae856c646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{aecc117f-145d-4a01-a1f1-858cca7721fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Robot\hierarchy.txt">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="Resources\Robot\Animations\RobotIdleAnimDAE.txt">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Robot\Animations\RobotAttackAnim.dae">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\Robot\Animations\RobotIdleAnim.dae">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\Robot\Animations\RobotDieAnim.dae">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
